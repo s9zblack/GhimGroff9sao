@@ -1,0 +1,54 @@
+/* PC */
+@media (min-width: 1024px){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+}
+/* Mobile */
+@media (max-width: 1023px){
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header {
+        overflow: hidden;
+    }
+    .col-third{
+        width: 100%;
+    }
+    .col-half{
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 15px;
+    }
+    #nav li a{
+        width: 100%;
+        display: block;
+    }
+    #header {
+        height: 46px;
+        background: url(https://3.bp.blogspot.com/-APgOst7htds/WvK1QKojlmI/AAAAAAAAMak/irUM72BV60sGHfzeNs7yw6eFxjT501UMwCLcBGAs/s1600/goku-instinct-1.jpg) top center/cover no-repeat;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+       z-index: 1;
+    }
+}
